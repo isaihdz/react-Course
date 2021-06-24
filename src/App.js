@@ -42,7 +42,7 @@ function App() {
       <Title text="Otro título desde props" />
       <p>Primer componente con state</p>
       {numbers.map((number, index) => {
-        return <p key={index}>Soy el numero {number}</p>;
+        return <p key={number}>Soy el numero {number}</p>;
       })}
     </div>
   );
